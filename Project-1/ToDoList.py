@@ -1,5 +1,8 @@
+# ============================================
 # To-Do List Application
-
+# Developer: Aqsa Ismail
+# Internship: DecodeLabs — Batch 2026
+# ============================================
 tasks = []
 
 # Load existing tasks from file
