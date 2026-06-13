@@ -1,4 +1,71 @@
-DECODE LAB 
-PROJECT 1
-INTENSHIPS
-TO DO LIST
+# 📝 To-Do List — Project 1
+
+A command-line To-Do List application built with Python.
+Developed as part of the DecodeLabs Python Internship (Batch 2026).
+
+---
+
+## 🚀 What It Does
+
+- Add tasks to your list
+- View all saved tasks
+- Tasks are saved to a file — they don't disappear after closing!
+- Handles invalid input gracefully
+
+---
+
+## 💡 Concepts Used
+
+- Python Lists (`append`)
+- `while` loop
+- `if / elif / else`
+- File Handling (`open`, `read`, `write`)
+- `try / except` for error handling
+
+---
+
+## ▶️ How to Run
+
+```bash
+python todolist.py
+```
+
+---
+
+## 📸 Sample Output
+Welcome to My to do list!
+
+ADD task
+View Tasks
+Quit
+
+Enter Your choice 1/2/3: 1
+
+Enter your task: Finish Python assignment
+
+Task Added!
+
+Enter Your choice 1/2/3: 2
+
+Finish Python assignment
+
+Enter Your choice 1/2/3: 3
+
+Goodbye!
+
+
+---
+
+## 🛠️ Built With
+
+- Python 3.13
+- VS Code
+
+---
+
+## 👩‍💻 Author
+
+**Aqsa Ismail**
+DecodeLabs Intern — Batch 2026
+[GitHub](https://github.com/aqsaismail04)
+[LinkedIn](https://linkedin.com/in/aqsaismail04)
