@@ -1,136 +1,100 @@
-# 📝 To-Do List Application
-### DecodeLabs Python Internship — Project 1 | Batch 2026
+# To-Do List Application
+DecodeLabs Python Internship — Project 1 | Batch 2026
 
 ---
 
-## 📌 Overview
+## Overview
 
 A command-line To-Do List application built with Python.
-This project focuses on **Data Management** — storing, 
-retrieving, and displaying tasks through pure programmatic logic.
+Users can add tasks, view tasks, and data is saved to a file.
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ Add new tasks
-- 📋 View all saved tasks with numbering
-- 💾 Tasks saved to file — data persists after closing!
-- ⚠️ Empty task validation
-- 🔢 Total task count display
-- 👋 Graceful exit with goodbye message
-
----
-
-## 💡 Concepts Used
-
-| Concept | Usage |
-|---------|-------|
-| `list` | Storing all tasks |
-| `append()` | Adding new tasks |
-| `for` loop | Displaying tasks |
-| `while` loop | Keeping program running |
-| `if/elif/else` | Menu choices |
-| `enumerate()` | Numbered task list |
-| `try/except` | File not found handling |
-| File Handling | Persistent data storage |
-| Functions | Clean, organized code |
+- Add new tasks
+- View all saved tasks with numbering
+- Tasks saved to file — data persists after closing
+- Empty task validation
+- Total task count display
+- Graceful exit with goodbye message
 
 ---
 
-## ▶️ How to Run
+## Concepts Used
 
-**Step 1 — Clone the repository**
-```bash
-git clone https://github.com/aqsaismail04/DecodeLabs-Internship.git
-```
+- Python Lists and append()
+- while loop and for loop
+- if / elif / else
+- enumerate() for numbered list
+- try / except for error handling
+- File Handling for saving tasks
+- Functions for clean code
 
-**Step 2 — Go to Project-1 folder**
-```bash
-cd DecodeLabs-Internship/Project-1
-```
+---
 
-**Step 3 — Run the program**
-```bash
+## How to Run
+
+1. Clone the repo
+2. Go to Project-1 folder
+3. Run this command:
+
 python todolist.py
-```
 
 ---
 
-## 📸 Sample Output
-✅ Welcome to My To-Do List App!
+## Sample Output
 
-📂 Loaded 0 existing task(s).
-╔══════════════════════════════╗
+Welcome to My To-Do List App!
+Loaded 0 existing task(s).
 
-║     MY TO-DO LIST APP        ║
+1. Add Task
+2. View Tasks
+3. Quit
 
-╠══════════════════════════════╣
+Enter your choice: 1
+Enter a new task: Study Python
+Task added: Study Python
 
-║  1. Add Task                 ║
-
-║  2. View Tasks               ║
-
-║  3. Quit                     ║
-
-╚══════════════════════════════╝
-Enter your choice (1/2/3): 1
-
-Enter a new task: Finish Python assignment
-
-✅ Task added: 'Finish Python assignment'
-Enter your choice (1/2/3): 2
-
-📋 Your Tasks:
-
-Finish Python assignment
-
-
+Enter your choice: 2
+Your Tasks:
+1. Study Python
 Total Tasks: 1
-Enter your choice (1/2/3): 3
 
-👋 Thank you for using To-Do List App. Goodbye!
+Enter your choice: 3
+Goodbye!
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+
 Project-1/
-
-│
-
-├── todolist.py     ← Main program file
-
-├── tasks.txt       ← Auto-generated task storage
-
-└── README.md       ← Project documentation
+- todolist.py
+- tasks.txt
+- README.md
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
-- How to store multiple items using **Python Lists**
-- How to use **File Handling** for data persistence
-- How to build a **menu-driven** CLI application
-- The importance of **input validation**
-- How to write **clean code** using functions
-
----
-
-## 🛠️ Built With
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+- Storing multiple items using Python Lists
+- File Handling for data persistence
+- Building a menu-driven CLI application
+- Input validation
+- Writing clean code using functions
 
 ---
 
-## 👩‍💻 Developer
+## Built With
 
-**Aqsa Ismail**  
+- Python 3.13
+- VS Code
+
+---
+
+## Developer
+
+Aqsa Ismail
 DecodeLabs Python Intern — Batch 2026
-
-[![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aqsaismail04)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aqsaismail04)
-
----
-
-<p align="center">⭐ Part of DecodeLabs Internship — Batch 2026</p>
+GitHub: https://github.com/aqsaismail04
+LinkedIn: https://linkedin.com/in/aqsaismail04
