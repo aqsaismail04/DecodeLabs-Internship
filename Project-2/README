@@ -1,2 +1,61 @@
-project 2 
-expense tracker 
+# Expense Tracker Application
+DecodeLabs Python Internship — Project 2 | Batch 2026
+
+---
+
+## Overview
+
+A command-line Expense Tracker application built with Python.
+Users can enter expense amounts and the program adds them up
+and displays the total amount spent.
+
+---
+
+## Features
+
+- Add expense amounts one by one
+- Running total shown after every entry
+- Invalid input handled gracefully
+- Negative amount validation
+- Final total displayed on exit
+- Type 'quit' to stop and see total
+
+---
+
+## Concepts Used
+
+- Accumulator Pattern (total += expense)
+- while loop
+- if / elif / else
+- try / except ValueError
+- float() for decimal numbers
+- Input validation
+- Sentinel Value (quit to exit)
+
+---
+
+## How to Run
+
+1. Clone the repo
+2. Go to Project-2 folder
+3. Run this command:
+
+python expense_tracker.py
+
+---
+
+## Sample Output
+
+Welcome to Expense Tracker!
+Type 'quit' to see your total and exit.
+
+Enter expense amount: 100
+Added! Running Total: 100.00
+
+Enter expense amount: 50
+Added! Running Total: 150.00
+
+Enter expense amount: abc
+Invalid input! Please enter a number.
+
+Enter expense amount:
