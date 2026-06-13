@@ -40,6 +40,17 @@ retrieving, and displaying tasks through pure programmatic logic.
 
 ## ▶️ How to Run
 
+**Step 1 — Clone the repository**
+```bash
+git clone https://github.com/aqsaismail04/DecodeLabs-Internship.git
+```
+
+**Step 2 — Go to Project-1 folder**
+```bash
+cd DecodeLabs-Internship/Project-1
+```
+
+**Step 3 — Run the program**
 ```bash
 python todolist.py
 ```
@@ -47,3 +58,79 @@ python todolist.py
 ---
 
 ## 📸 Sample Output
+✅ Welcome to My To-Do List App!
+
+📂 Loaded 0 existing task(s).
+╔══════════════════════════════╗
+
+║     MY TO-DO LIST APP        ║
+
+╠══════════════════════════════╣
+
+║  1. Add Task                 ║
+
+║  2. View Tasks               ║
+
+║  3. Quit                     ║
+
+╚══════════════════════════════╝
+Enter your choice (1/2/3): 1
+
+Enter a new task: Finish Python assignment
+
+✅ Task added: 'Finish Python assignment'
+Enter your choice (1/2/3): 2
+
+📋 Your Tasks:
+
+Finish Python assignment
+
+
+Total Tasks: 1
+Enter your choice (1/2/3): 3
+
+👋 Thank you for using To-Do List App. Goodbye!
+
+---
+
+## 📂 Project Structure
+Project-1/
+
+│
+
+├── todolist.py     ← Main program file
+
+├── tasks.txt       ← Auto-generated task storage
+
+└── README.md       ← Project documentation
+
+---
+
+## 🧠 What I Learned
+
+- How to store multiple items using **Python Lists**
+- How to use **File Handling** for data persistence
+- How to build a **menu-driven** CLI application
+- The importance of **input validation**
+- How to write **clean code** using functions
+
+---
+
+## 🛠️ Built With
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+---
+
+## 👩‍💻 Developer
+
+**Aqsa Ismail**  
+DecodeLabs Python Intern — Batch 2026
+
+[![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aqsaismail04)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aqsaismail04)
+
+---
+
+<p align="center">⭐ Part of DecodeLabs Internship — Batch 2026</p>
