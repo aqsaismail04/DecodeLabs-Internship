@@ -1,26 +1,40 @@
-# 📝 To-Do List — Project 1
-
-A command-line To-Do List application built with Python.
-Developed as part of the DecodeLabs Python Internship (Batch 2026).
+# 📝 To-Do List Application
+### DecodeLabs Python Internship — Project 1 | Batch 2026
 
 ---
 
-## 🚀 What It Does
+## 📌 Overview
 
-- Add tasks to your list
-- View all saved tasks
-- Tasks are saved to a file — they don't disappear after closing!
-- Handles invalid input gracefully
+A command-line To-Do List application built with Python.
+This project focuses on **Data Management** — storing, 
+retrieving, and displaying tasks through pure programmatic logic.
+
+---
+
+## ✨ Features
+
+- ✅ Add new tasks
+- 📋 View all saved tasks with numbering
+- 💾 Tasks saved to file — data persists after closing!
+- ⚠️ Empty task validation
+- 🔢 Total task count display
+- 👋 Graceful exit with goodbye message
 
 ---
 
 ## 💡 Concepts Used
 
-- Python Lists (`append`)
-- `while` loop
-- `if / elif / else`
-- File Handling (`open`, `read`, `write`)
-- `try / except` for error handling
+| Concept | Usage |
+|---------|-------|
+| `list` | Storing all tasks |
+| `append()` | Adding new tasks |
+| `for` loop | Displaying tasks |
+| `while` loop | Keeping program running |
+| `if/elif/else` | Menu choices |
+| `enumerate()` | Numbered task list |
+| `try/except` | File not found handling |
+| File Handling | Persistent data storage |
+| Functions | Clean, organized code |
 
 ---
 
@@ -33,39 +47,3 @@ python todolist.py
 ---
 
 ## 📸 Sample Output
-Welcome to My to do list!
-
-ADD task
-View Tasks
-Quit
-
-Enter Your choice 1/2/3: 1
-
-Enter your task: Finish Python assignment
-
-Task Added!
-
-Enter Your choice 1/2/3: 2
-
-Finish Python assignment
-
-Enter Your choice 1/2/3: 3
-
-Goodbye!
-
-
----
-
-## 🛠️ Built With
-
-- Python 3.13
-- VS Code
-
----
-
-## 👩‍💻 Author
-
-**Aqsa Ismail**
-DecodeLabs Intern — Batch 2026
-[GitHub](https://github.com/aqsaismail04)
-[LinkedIn](https://linkedin.com/in/aqsaismail04)
