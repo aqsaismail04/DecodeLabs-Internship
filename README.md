@@ -21,6 +21,7 @@ during my internship at DecodeLabs.
 |---|---------|----------|
 | 1 | [To-Do List](./Project-1) | Lists, Loops, File Handling |
 | 2 | [Expense Tracker](./Project-2) | Accumulators, try/except, float |
+| 3 | [Password Generator](./Project-3) | Modules, String Manipulation, random |
 
 ---
 
@@ -35,5 +36,4 @@ during my internship at DecodeLabs.
 
 Industrial Training Program — teaching real-world
 backend development through hands-on projects.
-
 🌐 [www.decodelabs.tech](https://www.decodelabs.tech)
